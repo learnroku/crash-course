@@ -17,3 +17,5 @@ Read the [Introduction](docs/Introduction.md) for detailed instructions on the f
 Each completed lesson is represented in this repository. For example, Lesson 2 code is in the `lesson_2` directory.
 
 All example thumbnails courtesy of https://unsplash.com/.
+
+.
