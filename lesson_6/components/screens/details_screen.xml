@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="details_screen" extends="Group">
+	<interface>
+		<!-- Content fields -->
+		<field id="content"
+		    type="node"
+		    alwaysnotify="true"
+		    onChange="OnContentChange" />
+		<field id="play_button_pressed"
+		    type="int"
+		    alwaysnotify="true"
+		    alias="play_button.buttonSelected" />
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/screens/details_screen.brs" />
+	<children>
+		<!-- Item description -->
+    <Poster
+      id="thumbnail"
+      width="500"
+      height="280"
+      translation="[200,200]" />
+    <Button
+      id="play_button"
+      text="PLAY"
+      translation="[200, 600]" />
+    <Label
+      id="title"
+      font="font:LargeBoldSystemFont"
+      color="0xFFFFFF"
+      text=""
+      translation="[800,200]" />
+    <Label
+      id="description"
+      font="font:MediumSystemFont"
+      color="0xFFFFFF"
+			wrap="true"
+			width="800"
+      text=""
+      translation="[800,300]" />
+	</children>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name = "load_feed_task" extends = "task" >
+  <interface>
+    <!-- input fields -->
+    <field id = "url" type = "string" />
+    <!-- response fields -->
+    <field id = "response" type = "string" />
+    <field id = "error" type = "string" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/tasks/load_feed_task.brs"/>
+</component>

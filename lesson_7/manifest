@@ -1,0 +1,20 @@
+##   Channel Details
+title=Roku Lesson 7
+major_version=1
+minor_version=0
+build_version=0
+
+## Channel Icons
+#### Image sizes are mm_icon_focus_fhd: 540x405px | mm_icon_focus_hd: 290x218px | mm_icon_focus_sd: 214x144px
+mm_icon_focus_hd=pkg:/images/channel_logo_hd.png
+
+###  Splash Screen + Loading Screen Artwork
+#### Image sizes are splash_screen_fhd: 1920x1080px | splash_screen_hd: 1280x720px | splash_screen_sd: 720x480px
+splash_screen_fhd=pkg:/images/splash_fhd.png
+splash_screen_hd=pkg:/images/splash_hd.png
+
+#tell the Roku we designed our app for 1080p
+ui_resolutions=fhd
+
+#get rid of black screen flash when app starts
+splash_rsg_optimization=1

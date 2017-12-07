@@ -1,0 +1,46 @@
+{
+    "title": "HORROR",
+    "description": "Used for learning Roku development",
+    "items": [
+        {
+            "id": "H123",
+            "title": "Horror One",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie velit sit amet rhoncus sodales. Suspendisse dignissim maximus mattis. Nullam ornare consectetur velit, ac pretium turpis. Nullam consequat ornare tincidunt",
+            "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-horror1.jpg",
+            "url":"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+            "streamformat":"hls"
+        },
+        {
+            "id": "H456",
+            "title": "Horror Two",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie velit sit amet rhoncus sodales. Suspendisse dignissim maximus mattis. Nullam ornare consectetur velit, ac pretium turpis. Nullam consequat ornare tincidunt",
+            "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-horror2.jpg",
+            "url":"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+            "streamformat":"hls"
+        },
+        {
+            "id": "C789",
+            "title": "Horror Three",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie velit sit amet rhoncus sodales. Suspendisse dignissim maximus mattis. Nullam ornare consectetur velit, ac pretium turpis. Nullam consequat ornare tincidunt",
+            "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-horror3.jpg",
+            "url":"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+            "streamformat":"hls"
+        },
+        {
+            "id": "C012",
+            "title": "Horror Four",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie velit sit amet rhoncus sodales. Suspendisse dignissim maximus mattis. Nullam ornare consectetur velit, ac pretium turpis. Nullam consequat ornare tincidunt",
+            "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-horror4.jpg",
+            "url":"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+            "streamformat":"hls"
+        },
+        {
+            "id": "C345",
+            "title": "Horror Five",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie velit sit amet rhoncus sodales. Suspendisse dignissim maximus mattis. Nullam ornare consectetur velit, ac pretium turpis. Nullam consequat ornare tincidunt",
+            "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-horror5.jpg",
+            "url":"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8",
+            "streamformat":"hls"
+        }
+    ]
+}

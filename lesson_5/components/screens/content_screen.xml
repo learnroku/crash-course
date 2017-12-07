@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component   name="content_screen"   extends="Group"   initialFocus="content_grid" >
+    <script type="text/brightscript" uri="pkg:/components/screens/content_screen.brs" />
+    <interface>
+        <field id="feed_data"
+        type="assocarray"
+        onChange="onFeedChanged"
+        />
+        <field id="content_selected"
+        type="assocarray"
+        alias="content_grid.itemSelected"
+        />
+    </interface>
+    <children>
+        <Label
+        translation="[75, 75]"
+        id="header"
+        color="0xFFFFFF"
+        font="font:LargeBoldSystemFont"
+        text=""/>
+    <PosterGrid
+        id="content_grid"
+        translation="[100,175]"
+        basePosterSize="[500,280]"
+        itemSpacing="[110,110]"
+        caption1NumLines="1"
+        caption2NumLines="1"
+        numColumns="3"
+        numRows="4"
+        />
+    </children>
+</component>

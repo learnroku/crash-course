@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="home_scene" extends="Scene" initialFocus="category_screen">
+  <script type="text/brightscript" uri="pkg:/components/home_scene.brs" />
+  <children>
+    <category_screen
+      id="category_screen"
+      visible="true"
+      translation="[0,0]" />
+    <content_screen
+      id="content_screen"
+      visible="false"
+      translation="[0,0]" />
+    <details_screen
+      id="details_screen"
+      visible="false"
+      translation="[0,0]" />
+    <Video
+      id="videoplayer"
+      visible="false"
+      translation="[0,0]"
+      width="1920"
+      height="1080" />
+    <Dialog
+      title=""
+      visible="false"
+      id="error_dialog" />
+  </children>
+</component>

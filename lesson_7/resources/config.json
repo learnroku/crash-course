@@ -1,0 +1,25 @@
+{
+  "host": "http://192.168.1.86:8888",
+  "categories": [
+    {
+      "title": "Drama",
+      "feed_url": "/roku_lessons/drama.json"
+    },
+    {
+      "title": "Comedy",
+      "feed_url": "/roku_lessons/comedy.json"
+    },
+    {
+      "title": "Horror",
+      "feed_url": "/roku_lessons/horror.json"
+    },
+    {
+      "title": "Error Test",
+      "feed_url": "/broken_path"
+    },
+    {
+      "title": "Bad Data",
+      "feed_url": "/roku_lessons/bad_data.json"
+    }
+  ]
+}
