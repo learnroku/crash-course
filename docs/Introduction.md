@@ -16,16 +16,20 @@ Requirements:
 
 ## Some notes:  
 As of November 2017, the Roku does not have an emulator (and I doubt one is coming any time soon).  You must have a physical device, running where you can access its IP address, to launch and debug applications. Furthermore, there is no compiler, at least not on your development machine. Code is written in XML and Roku's proprietary language called BrightScript. Code and assets are compressed into a plain old zip file and sent to the device. Once loaded on the device, some compilation happens and egregious mistakes in syntax should be caught.  
+
 SceneGraph apps are a mix of XML and BrightScript. BS is loosely typed, similar to JavaScript, but uses a syntax similar to Visual Basic. In general, the user interface elements are defined in XML files and the application logic is defined in the BrightScript `.brs` files.  
 One important thing to note about BrightScript: it is case-insensitive. For example, a function defined as `function getChild()` can be accessed using `getchild()` or `GetChild()` or `gEtChIlD()`. The demos provided by Roku have a range of styles, with little consistency. I try to keep my property names and functions all-lowercase with underscores, but I'm not entirely consistent either.  
+
 As for events, the design implemented by Roku is called "field observers", which is introduced in Lesson 3.  
 
 ## Setting Up The Dev Environment
 Each of the numbered directories is a lesson. You must deploy a lesson by zipping the _contents_ of the directory in order to sideload the app. If you get manifest errors in the debugger, make sure you are deploying the correct files.  
 This course assumes you have already hooked up your Roku and enabled developer mode. You will need the username and password for the device.  
 For more information, go here: https://blog.roku.com/developer/developer-setup-guide  
+
 You need to have a web server hosting the `roku_lessons` content, found in the `server` directory. This directory contains JSON files of content feeds and some images. Personally I use MAMP installed on macOS because it's easy to use, see https://www.mamp.info.  
 To access the debugger, you need port 8085 open on your local network.  
+
 You must have telnet installed on your machine. It may not be included with OSX/macOS, if not then I suggest you installed homebrew (https://brew.sh/) and then use it to install telnet using `brew install telnet`  
 
 ## Links
