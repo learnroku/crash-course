@@ -176,6 +176,14 @@ In this lesson we will improve the back button handling, add a new screen to sho
         m.details_screen.visible = true
     end sub
     ```
+    
+    Update `content_screen.xml` and add the following field to the interface.
+    ``` java
+        <field id="content_selected"
+        type="assocarray"
+        alias="content_grid.itemSelected"
+        />
+     ```
     Run the app and select an item on the content screen to see the new details screen:
     <img src="screenshots/l5_details.png" width="400"/>
 
