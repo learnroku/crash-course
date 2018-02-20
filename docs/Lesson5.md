@@ -178,7 +178,7 @@ In this lesson we will improve the back button handling, add a new screen to sho
     ```
     
     Update `content_screen.xml` and add the following field to the interface.
-    ``` java
+    ``` xml
         <field id="content_selected"
         type="assocarray"
         alias="content_grid.itemSelected"
