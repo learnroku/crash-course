@@ -118,7 +118,7 @@ OK, let's go:
     	m.videoplayer.InitClientCertificates()
         m.videoplayer.notificationInterval=1
     	m.videoplayer.observeFieldScoped("position", "onPlayerPositionChanged")
-    	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged"
+    	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged")
     end sub
     ```
 
