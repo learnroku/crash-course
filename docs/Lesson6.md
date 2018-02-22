@@ -188,6 +188,16 @@ OK, let's go:
     Error Code: -3
     onPlayerStateChanged: finished
     ```
+    
+    You may have noticed that the playerPosition is still being logged every second after clicking the back button and exiting the video.  We need to close the video on the back button press event.  In `home_scene.brs`, update the onKeyEvent() in the videoplayer.visible conditional and add the following:
+    ```
+    else if m.videoplayer.visible
+        closeVideo()
+        m.details_screen.setFocus(true)
+        return true
+	end if
+    ```
+    The player position logging should now stop after hitting the back button.
 
 1. Now that the error is handled, the user should be made aware that there was a problem.  We can show a dialog on screen. Roku supports a modal dialog using a Dialog component coupled with a specific property on the home scene. First add a new Dialog node to the `home_scene.xml` children, and don't forget to create a reference in the init() function of `home_scene.brs`:
 
