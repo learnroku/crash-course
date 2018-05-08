@@ -9,7 +9,7 @@ Written using firmware version 8.0
 [Lesson 3: Extended Components, Observers, Tasks, Network Requests](docs/Lesson3.md)  
 [Lesson 4: Parsing JSON, Data Driven UI](docs/Lesson4.md)  
 [Lesson 5: Back Button, Details Screen with Play Button, Video Screen](docs/Lesson5.md)  
-[Lesson 6: Video Playback, Dialogs](docs/Lesson7.md)  
+[Lesson 6: Video Playback, Dialogs](docs/Lesson6.md)  
 [Lesson 7: External Configuration, Interface Functions, Regular Expressions](docs/Lesson7.md)  
 
 Read the [Introduction](docs/Introduction.md) for detailed instructions on the files and folders here.
