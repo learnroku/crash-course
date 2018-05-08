@@ -48,7 +48,7 @@ OK, let's go:
 1. Open a web browser and navigate to your Roku's IP address. You will need to use the credentials you set up when you registered the device for dev mode.  
     <img src="screenshots/l1_login.png" width="400"/>  
 
-1. Enter the user/pass, and upload the zip you just made
+1. Enter the user/pass, and upload the zip you just made  
     <img src="screenshots/l1_installed.png" width="400"/>
 
 1. Watch the telnet session update as the app launches:  
