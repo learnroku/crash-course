@@ -134,18 +134,7 @@ OK, let's go:
     Player Position:                 6
     ```
 
-1. Now this is a fully operational Roku video channel. The time has come to sabotage it.  Open `server/roku_lessons/drama.json` and edit one of the items so the URL is not valid content:  
-
-    ``` JSON
-    {
-        "id": "D123",
-        "title": "Broken Video",
-        "description": "This video is broken and will not play.",
-        "thumbnail": "http://192.168.1.86:8888/roku_lessons/images/thumbnail-drama1.jpg",
-        "url":"https://broken",
-        "streamformat":"hls"
-    }
-    ```
+1. Now this is a fully operational Roku video channel. The time has come to sabotage it.  Play the last video in the content grid under drama, titled broken video.  It's url is not valid, so let's see how Roku handles this error by default.
 
     Run the app and try to play this content. The player simply freezes during loading, and the debugger shows a series of states:  
 
