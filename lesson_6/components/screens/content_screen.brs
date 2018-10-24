@@ -1,7 +1,14 @@
 sub init()
   m.content_grid = m.top.FindNode("content_grid")
+  m.top.observeField("visible", "onVisibleChange")
 	m.header = m.top.FindNode("header")
 
+end sub
+
+sub onVisibleChange ()
+  if m.top.visible = true then
+    m.content_grid.setFocus(true)
+  end if
 end sub
 
 sub onFeedChanged(obj)
