@@ -188,3 +188,6 @@ OK, let's go:
     Notice how almost all the application logic is now centralized in the home scene. You could think of the home scene as the "controller" in a Model View Controller architecture.  As the course progresses, most of the additional functionality will be added here.
 
 That's it for Lesson 4.
+
+Next Up:   
+[Lesson 5: Back Button, Details Screen with Play Button, Video Screen](Lesson5.md)  
