@@ -276,3 +276,6 @@ In this lesson we will improve the back button handling, add a new screen to sho
     ```
 
 That's it for lesson 5.
+
+Next Up:   
+[Lesson 6: Video Playback, Dialogs](Lesson6.md)  

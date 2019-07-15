@@ -263,3 +263,6 @@ OK, let's go:
     <img src="screenshots/l6_error.png" width="400"/>
 
 That's it for Lesson 6.
+
+Next Up:   
+[Lesson 7: External Configuration, Interface Functions, Regular Expressions](Lesson7.md)  

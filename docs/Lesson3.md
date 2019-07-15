@@ -294,3 +294,6 @@ Update `load_feed_task.brs` with the following code:
     Run this code and you will see the JSON file printed in the debugger.
 
 That's it for Lesson 3.
+
+Next Up:   
+[Lesson 4: Parsing JSON, Data Driven UI](Lesson4.md)  
