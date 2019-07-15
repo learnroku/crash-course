@@ -215,4 +215,7 @@ OK, let's go:
     Roku actually supports 2 entry point functions, `main` or `runUserInterface`. You must define one or the other for the app to launch. They both do the same thing, so take your pick. Personally, I prefer the concise mystery of tradition's `main`.
     Here's the documentation: https://sdkdocs.roku.com/display/sdkdoc/Development+Environment+Overview#DevelopmentEnvironmentOverview-EntryPoints
 
-That's it for Lesson 1. At this point you should be familiar with the basics of the Roku workflow. Now would be a good time to get familiar with Atom and a deploy script or package. You will be sideloading the app many, many times for the remainder of your Roku career. If you want to use bash & curl, this script is a good one: https://stackoverflow.com/questions/45285806/programmatically-upload-roku-channel-without-eclipse-plugin/45405595#45405595
+That's it for Lesson 1. At this point you should be familiar with the basics of the Roku workflow. Now would be a good time to get familiar with Atom and a deploy script or package. You will be sideloading the app many, many times for the remainder of your Roku career. If you want to use bash & curl, this script is a good one: https://stackoverflow.com/questions/45285806/programmatically-upload-roku-channel-without-eclipse-plugin/45405595#45405595  
+
+Next Up: 
+[Lesson 2: Screen, Components, and Resolution](docs/Lesson2.md)  
