@@ -171,7 +171,3 @@ This is the end of Lesson 2.
 
 Next Up:   
 [Lesson 3: Extended Components, Observers, Tasks, Network Requests](Lesson3.md)  
-[Lesson 4: Parsing JSON, Data Driven UI](Lesson4.md)  
-[Lesson 5: Back Button, Details Screen with Play Button, Video Screen](Lesson5.md)  
-[Lesson 6: Video Playback, Dialogs](Lesson6.md)  
-[Lesson 7: External Configuration, Interface Functions, Regular Expressions](Lesson7.md)  
