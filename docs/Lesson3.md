@@ -39,6 +39,14 @@ OK, let's go:
         m.category_list.setFocus(true)
     end function
     ```
+1. Modify home_scene.xml to route to the new screen components by replacing what is there with the following:  
+    ``` java
+    function init()
+    	? "[home_scene] init"
+    	m.center_square = m.top.findNode("category_screen")
+    	m.center_square.setFocus(true)
+    end function
+    ```
 1. Save and run the app. It's pretty lame, nothing happens and the category list is empty. Go back to `category_screen.xml` and make this change:
 
     ``` xml
@@ -87,7 +95,7 @@ OK, let's go:
     onCategorySelected data:  0
     ```
 
-    Notice how all you get is a number? You have to do some gymnastics to get the actual ContentNode value associated with that index. Make the following update to `onCategorySelected`:  
+    Notice how all you get is a number? You have to do some gymnastics to get the actual ContentNode value associated with that index.  Make the following update to `onCategorySelected`:  
 
     ``` java
     sub onCategorySelected(obj)
@@ -142,7 +150,7 @@ In the `components` directory, add a directory called `models`. In `models`, add
     </component>
     ```
 
-    This node now inherits all the fields from ContentNode, and supports a new field called `feed_url`.  Now we can wire up the selected category to a category feed on the network. Edit `category_screen.xml` with the following code:  
+    This node now inherits all the fields from ContentNode, and supports a new field called `feed_url`.  Now we can wire up the selected category to a category feed on the network. **NOTICE** - ContentNode transforms to category_node at this point.  Edit `category_screen.xml` with the following code:  
 
     ``` xml
     <RadioButtonList
