@@ -138,7 +138,7 @@ OK, let's go:
         ? "Model: ", device_info.getModel()
         ? "Display Name: ", device_info.getModelDisplayName()
         ? "Firmware: ", device_info.getVersion()
-        ? "Device ID: ", device_info.getDeviceUniqueId()
+        ? "Device ID: ", device_info.GetChannelClientId()
         ? "Friendly Name: ", device_info.getFriendlyName()
         display_size = device_info.getDisplaySize()
         ? "Display Size: ", display_size.w;"x";display_size.h
@@ -217,5 +217,5 @@ OK, let's go:
 
 That's it for Lesson 1. At this point you should be familiar with the basics of the Roku workflow. Now would be a good time to get familiar with Atom and a deploy script or package. You will be sideloading the app many, many times for the remainder of your Roku career. If you want to use bash & curl, this script is a good one: https://stackoverflow.com/questions/45285806/programmatically-upload-roku-channel-without-eclipse-plugin/45405595#45405595  
 
-Next Up: 
+Next Up:
 [Lesson 2: Screen, Components, and Resolution](Lesson2.md)  
