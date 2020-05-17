@@ -27,7 +27,7 @@ Create a directory in the root of the application (alongside the manifest) calle
 
     ```
 
-1.    The pattern for loading a local file is similar to requesting files over the network. You must use a task. In the `components/tasks` directory, add a file `load_config_task.xml` with the following XML:  
+1. The pattern for loading a local file is similar to requesting files over the network. You must use a task. In the `components/tasks` directory, add a file `load_config_task.xml` with the following XML:  
 
     ``` xml
     <?xml version="1.0" encoding="utf-8" ?>
