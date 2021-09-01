@@ -39,7 +39,7 @@ OK, let's go:
         m.category_list.setFocus(true)
     end function
     ```
-1. Modify home_scene.xml to route to the new screen components by replacing what is there with the following:  
+1. Modify home_scene.brs to route to the new screen components by replacing what is there with the following:  
     ``` java
     function init()
     	? "[home_scene] init"
