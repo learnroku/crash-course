@@ -82,7 +82,7 @@ OK, let's go:
     	m.videoplayer.setCertificatesFile("common:/certs/ca-bundle.crt")
     	m.videoplayer.InitClientCertificates()
     	m.videoplayer.observeFieldScoped("position", "onPlayerPositionChanged")
-    	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged"
+    	m.videoplayer.observeFieldScoped("state", "onPlayerStateChanged")
     end sub
 
     sub onPlayerPositionChanged(obj)
