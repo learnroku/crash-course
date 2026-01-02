@@ -2,7 +2,7 @@
 ## Back Button, Details Screen with Play Button, Video Screen
 In this lesson we will improve the back button handling, add a new screen to show details of the selected media, and add the Video node.
 
-1. When we run the app and get to eh content screen, pressing the back button closes the app. This is bad, we want to return to the category screen. To fix it, open `home_scene.brs` and edit the onKeyPress function:
+1. When we run the app and get to the content screen, pressing the back button closes the app. This is bad, we want to return to the category screen. To fix it, open `home_scene.brs` and edit the onKeyPress function:
     ``` java
 
     function onKeyEvent(key, press) as Boolean
